@@ -3,7 +3,7 @@ def read_input():
     if choice == 'I':
         return input().rstrip(), input().rstrip()
     elif choice == 'F':
-        with open('tests/06.a', 'r') as f:
+        with open('tests/06', 'r') as f:
             return f.readline().rstrip(), f.readline().rstrip()
 
 
