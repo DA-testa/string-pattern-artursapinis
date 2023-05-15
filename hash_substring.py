@@ -1,5 +1,5 @@
 def read_input():
-    choice = input().rstrip()
+    choice = input()[0]
     if choice == 'I':
         return input().rstrip(), input().rstrip()
     elif choice == 'F':
